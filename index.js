@@ -10,3 +10,9 @@ function happyHolidaysTo(name) {
 
 happyHolidaysTo('Katie') // "Happy holidays, Katie!"
 
+function happyHolidayTo(holiday, name) {
+  console.log(`Happy ${holiday}, ${name}!`)
+  return "Happy ${holiday}, ${name}!"
+}
+
+happyHolidayTo(Christmas, Katie)
